@@ -1,0 +1,9 @@
+[30;46m[30;46m INFO [0m[0m [96m[96mOpening tunnel...[0m[0m
+[30;46m[30;46m INFO [0m[0m [96m[96mWaiting for events...[0m[0m
+{"deltas": [{"date": 1648581570, "object": "message", "type": "message.created", "object_data": {"namespace_id": "7hb4122qzy2791gm4qu9p2lv7", "account_id": "7hb4122qzy2791gm4qu9p2lv7", "object": "message", "attributes": {"thread_id": "f0dix73focw7zvx9ceos2mimp", "received_date": 1648581571}, "id": "d1g589jb3ploi8c47rb3fm1fo", "metadata": null}}]}
+{"deltas": [{"date": 1648581572, "object": "message", "type": "message.updated", "object_data": {"namespace_id": "7hb4122qzy2791gm4qu9p2lv7", "account_id": "7hb4122qzy2791gm4qu9p2lv7", "object": "message", "attributes": {"thread_id": "f0dix73focw7zvx9ceos2mimp"}, "id": "d1g589jb3ploi8c47rb3fm1fo", "metadata": null}}]}
+{"deltas": [{"date": 1648581581, "object": "message", "type": "message.updated", "object_data": {"namespace_id": "7hb4122qzy2791gm4qu9p2lv7", "account_id": "7hb4122qzy2791gm4qu9p2lv7", "object": "message", "attributes": {"thread_id": "f0dix73focw7zvx9ceos2mimp"}, "id": "d1g589jb3ploi8c47rb3fm1fo", "metadata": null}}]}
+{"deltas": [{"date": 1648581614, "object": "message", "type": "message.updated", "object_data": {"namespace_id": "7hb4122qzy2791gm4qu9p2lv7", "account_id": "7hb4122qzy2791gm4qu9p2lv7", "object": "message", "attributes": {"thread_id": "f0dix73focw7zvx9ceos2mimp"}, "id": "d1g589jb3ploi8c47rb3fm1fo", "metadata": null}}]}
+{"deltas": [{"date": 1648581614, "object": "message", "type": "message.updated", "object_data": {"namespace_id": "7hb4122qzy2791gm4qu9p2lv7", "account_id": "7hb4122qzy2791gm4qu9p2lv7", "object": "message", "attributes": {"thread_id": "f0dix73focw7zvx9ceos2mimp"}, "id": "d1g589jb3ploi8c47rb3fm1fo", "metadata": null}}]}
+Interrupt. Closing tunnel.
+websocket: close 1000 (normal)

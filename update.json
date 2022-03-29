@@ -1,0 +1,142 @@
+Message {
+  connection: <ref *1> NylasConnection {
+    threads: RestfulModelCollection {
+      modelClass: [Function],
+      connection: [Circular *1],
+      _path: '/threads'
+    },
+    contacts: ContactRestfulModelCollection {
+      modelClass: [Function],
+      connection: [Circular *1],
+      _path: '/contacts'
+    },
+    messages: MessageRestfulModelCollection {
+      modelClass: [Function],
+      connection: [Circular *1],
+      _path: '/messages'
+    },
+    drafts: RestfulModelCollection {
+      modelClass: [Function],
+      connection: [Circular *1],
+      _path: '/drafts'
+    },
+    files: RestfulModelCollection {
+      modelClass: [Function],
+      connection: [Circular *1],
+      _path: '/files'
+    },
+    calendars: CalendarRestfulModelCollection {
+      modelClass: [Function],
+      connection: [Circular *1],
+      _path: '/calendars'
+    },
+    jobStatuses: RestfulModelCollection {
+      modelClass: [Function],
+      connection: [Circular *1],
+      _path: '/job-statuses'
+    },
+    events: RestfulModelCollection {
+      modelClass: [Function],
+      connection: [Circular *1],
+      _path: '/events'
+    },
+    resources: RestfulModelCollection {
+      modelClass: [Function],
+      connection: [Circular *1],
+      _path: '/resources'
+    },
+    deltas: DeltaCollection { path: '/delta', connection: [Circular *1] },
+    labels: RestfulModelCollection {
+      modelClass: [Function],
+      connection: [Circular *1],
+      _path: '/labels'
+    },
+    folders: RestfulModelCollection {
+      modelClass: [Function],
+      connection: [Circular *1],
+      _path: '/folders'
+    },
+    account: RestfulModelInstance {
+      modelClass: [Function],
+      connection: [Circular *1]
+    },
+    component: ComponentRestfulModelCollection {
+      modelClass: [Function],
+      connection: [Circular *1],
+      _path: '/component'
+    },
+    scheduler: SchedulerRestfulModelCollection {
+      modelClass: [Function],
+      connection: [Circular *1],
+      _path: '/manage/pages',
+      baseUrl: 'https://api.schedule.nylas.com'
+    },
+    outbox: Outbox { path: '/v2/outbox', connection: [Circular *1] },
+    neural: Neural {
+      connection: [Circular *1],
+      id: undefined,
+      accountId: undefined,
+      object: undefined
+    },
+    accessToken: 'SLHsIAZW7dbl9AKBvj0fc1mxKnaH7P',
+    clientId: '4ll42tz8yltt0r1ycjvhojjwr'
+  },
+  id: '9sxtv2blyftd9qn4bvuc5tlrr',
+  accountId: '7hb4122qzy2791gm4qu9p2lv7',
+  object: 'message',
+  to: [
+    EmailParticipant {
+      email: 'paulheath10@gmail.com',
+      name: 'My Nylas Friend'
+    }
+  ],
+  subject: 'The Nylas Challenge',
+  from: [
+    EmailParticipant {
+      email: 'paulheath10@hotmail.com',
+      name: 'Your Name'
+    }
+  ],
+  replyTo: [
+    EmailParticipant {
+      email: 'paulheath10@hotmail.com',
+      name: 'Your Name'
+    }
+  ],
+  cc: [],
+  bcc: [],
+  date: 2022-03-29T17:55:51.000Z,
+  threadId: 'atn4zwr1hx7mgm7zd6cjly6z9',
+  snippet: 'Hi Paul, This email was sent using the Nylas email API. Visit https://nylas.com for details.',
+  body: 'Hi Paul, This email was sent using the Nylas email API. Visit https://nylas.com for details.',
+  unread: false,
+  starred: false,
+  files: [],
+  events: [],
+  labels: [
+    Label {
+      connection: [NylasConnection],
+      id: 'ca72ddd9jermves19wf55g2ev',
+      accountId: undefined,
+      object: undefined,
+      name: '',
+      displayName: 'nylas_challenge'
+    },
+    Label {
+      connection: [NylasConnection],
+      id: '207fac9meuxs8rs1hhtnxkfve',
+      accountId: undefined,
+      object: undefined,
+      name: 'inbox',
+      displayName: 'Inbox'
+    },
+    Label {
+      connection: [NylasConnection],
+      id: 'bv5m6m5kq286kmak0s9v5yugx',
+      accountId: undefined,
+      object: undefined,
+      name: 'sent',
+      displayName: 'Sent Mail'
+    }
+  ]
+}

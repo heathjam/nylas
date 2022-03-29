@@ -1,0 +1,94 @@
+Account {
+  connection: <ref *1> NylasConnection {
+    threads: RestfulModelCollection {
+      modelClass: [Function],
+      connection: [Circular *1],
+      _path: '/threads'
+    },
+    contacts: ContactRestfulModelCollection {
+      modelClass: [Function],
+      connection: [Circular *1],
+      _path: '/contacts'
+    },
+    messages: MessageRestfulModelCollection {
+      modelClass: [Function],
+      connection: [Circular *1],
+      _path: '/messages'
+    },
+    drafts: RestfulModelCollection {
+      modelClass: [Function],
+      connection: [Circular *1],
+      _path: '/drafts'
+    },
+    files: RestfulModelCollection {
+      modelClass: [Function],
+      connection: [Circular *1],
+      _path: '/files'
+    },
+    calendars: CalendarRestfulModelCollection {
+      modelClass: [Function],
+      connection: [Circular *1],
+      _path: '/calendars'
+    },
+    jobStatuses: RestfulModelCollection {
+      modelClass: [Function],
+      connection: [Circular *1],
+      _path: '/job-statuses'
+    },
+    events: RestfulModelCollection {
+      modelClass: [Function],
+      connection: [Circular *1],
+      _path: '/events'
+    },
+    resources: RestfulModelCollection {
+      modelClass: [Function],
+      connection: [Circular *1],
+      _path: '/resources'
+    },
+    deltas: DeltaCollection { path: '/delta', connection: [Circular *1] },
+    labels: RestfulModelCollection {
+      modelClass: [Function],
+      connection: [Circular *1],
+      _path: '/labels'
+    },
+    folders: RestfulModelCollection {
+      modelClass: [Function],
+      connection: [Circular *1],
+      _path: '/folders'
+    },
+    account: RestfulModelInstance {
+      modelClass: [Function],
+      connection: [Circular *1]
+    },
+    component: ComponentRestfulModelCollection {
+      modelClass: [Function],
+      connection: [Circular *1],
+      _path: '/component'
+    },
+    scheduler: SchedulerRestfulModelCollection {
+      modelClass: [Function],
+      connection: [Circular *1],
+      _path: '/manage/pages',
+      baseUrl: 'https://api.schedule.nylas.com'
+    },
+    outbox: Outbox { path: '/v2/outbox', connection: [Circular *1] },
+    neural: Neural {
+      connection: [Circular *1],
+      id: undefined,
+      accountId: undefined,
+      object: undefined
+    },
+    accessToken: 'cO2M9gRtaldHUo4EnpjqkMHBt0mBzo',
+    clientId: '4ll42tz8yltt0r1ycjvhojjwr'
+  },
+  id: 'dxrjzo2fdna3lz9o8oyq9zpdi',
+  accountId: 'dxrjzo2fdna3lz9o8oyq9zpdi',
+  object: 'account',
+  name: 'Paul Heath',
+  emailAddress: 'paulheath10@googlemail.com',
+  provider: 'gmail',
+  organizationUnit: 'label',
+  syncState: 'running',
+  linkedAt: 2022-03-29T14:09:08.000Z,
+  accessToken: ''
+}
