@@ -8,7 +8,7 @@ Nylas.config({
 
 const nylas = Nylas.with(process.env.ACCESS_TOKEN)
 
-const MESSAGE_ID = '9sxtv2blyftd9qn4bvuc5tlrr'
+const MESSAGE_ID = 'd1g589jb3ploi8c47rb3fm1fo'
 const LABEL_ID = 'ca72ddd9jermves19wf55g2ev'
 
 // we happen to know the id of the message from before 
